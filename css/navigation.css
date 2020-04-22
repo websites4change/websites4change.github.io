@@ -2,9 +2,9 @@
 body {
 
   margin: 0;
-  padding-top: 100px;
+  padding-top: 90px;
   background: #ffffff;
-  background: url("../images/Alhambra2001.jpg") no-repeat center center fixed;
+ /* background: url("../images/Alhambra2001.jpg") no-repeat center center fixed;*/
 }
 
 .navbar-heading{
@@ -41,7 +41,7 @@ nav ul {
 }
 
 nav li {
-    width: 14%;
+    width: 12%;
     height: 50px;
     line-height: 50px;
     font-size: 95%;
@@ -59,7 +59,7 @@ nav li li{
 }
 
 nav a {
-font-family: 'Open Sans', sans-serif;
+  font-family: roboto,'Open Sans', sans-serif;
   text-decoration: none;
   color: #000;
   display: block;
@@ -106,7 +106,7 @@ nav li ul li {
 
 section{
  background-color: rgba(255, 252, 232, 0.9);
- font-family: verdana,  helvetica;
+ font-family: 'Montserrat', sans-serif;
   font-size: 95%;
 width: 100%;
 padding: 20px;
@@ -118,12 +118,12 @@ padding: 20px;
 display: inline-block;
   width: 45%;
   padding: 10px;
-  text-align: center;
+  text-align: left;
   vertical-align: middle;
 }
 .footer{
   color: #ffffff;
-  font-family: verdana,  helvetica;
+  font-family: 'Open Sans', sans-serif;
   font-size: 95%;
 text-align: center;
   background-color: #000000;
