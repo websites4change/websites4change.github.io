@@ -59,7 +59,10 @@ nav li li{
 }
 
 nav a {
-  font-family: verdana,  helvetica;
+	
+	CSS rules to specify families
+
+font-family: 'Open Sans', sans-serif;
   text-decoration: none;
   color: #000;
   display: block;
