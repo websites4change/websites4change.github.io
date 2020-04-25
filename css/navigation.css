@@ -13,6 +13,7 @@ body {
     height: 50px;
     line-height: 70px;
     font-size: 110%;
+
     padding-left: 30px;
 
 }
@@ -30,6 +31,8 @@ body {
   border-top: 5px solid #c71c0a;
   box-shadow: 0 1px 20px rgba(0, 0, 0, 0.1);
   background-color: #ffffff;
+  
+
 }
 
 nav ul {
@@ -44,7 +47,8 @@ nav li {
     width: 12%;
     height: 50px;
     line-height: 50px;
-    font-size: 95%;
+    font-size: 110%;
+  
     display: inline-block;
     margin-right: -4px;
   }
@@ -59,7 +63,7 @@ nav li li{
 }
 
 nav a {
-  font-family: roboto,'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-decoration: none;
   color: #000;
   display: block;
@@ -70,8 +74,10 @@ nav a {
 
 nav a:hover {
 
-background-color: #ecd004;
-  color: #3d5c5c;
+   color: #3d5c5c;
+
+border:1px solid #000000;
+   
 }
 
 /* Sub Menus */
@@ -107,8 +113,8 @@ nav li ul li {
 section{
  background-color: rgba(255, 252, 232, 0.9);
  font-family: 'Montserrat', sans-serif;
-  font-size: 95%;
-width: 100%;
+  font-size: 120%;
+width: 90%;
 padding: 20px;
  margin: 40px auto;
  
@@ -118,7 +124,7 @@ padding: 20px;
 display: inline-block;
   width: 45%;
   padding: 10px;
-  text-align: left;
+  text-align: center;
   vertical-align: middle;
 }
 .footer{
@@ -143,10 +149,11 @@ text-align: center;
   font-weight:bold;
   padding:15px 19px;
   text-decoration:none;
-  text-shadow:0px 0px 5px #7a2a1d;
+ 
 }
 .myButton:hover {
-  background-color:#cc4c39;
+  color:#a73f2d;
+  background-color:#ffffff;
 }
 .myButton:active {
   position:relative;
